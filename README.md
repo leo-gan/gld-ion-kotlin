@@ -4,9 +4,17 @@ A from-scratch Amazon Ion implementation for Kotlin on the JVM.
 The runtime and the code generator are Kotlin. They do not wrap, link, or
 vendor ion-java, ion-c, ion-rust, or any other Ion library.
 
-Maven coordinates, when an artifact is built from this tree:
+Maven Central coordinate, after the release workflow publishes it:
 
-`io.github.leo-gan:gld-ion-kotlin`
+`io.github.leo-gan:gld-ion-kotlin:0.2.0`
+
+```kotlin
+dependencies {
+    implementation("io.github.leo-gan:gld-ion-kotlin:0.2.0")
+}
+```
+
+Registration and signing: [docs/publishing.md](docs/publishing.md).
 
 The Kotlin package is `ion`. The generator binary is `gld-iongen-kotlin`.
 
