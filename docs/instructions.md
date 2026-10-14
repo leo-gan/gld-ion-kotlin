@@ -3,6 +3,16 @@
 These steps assume a machine with JDK 21. The Gradle project is
 `gld-ion-kotlin`. The Kotlin package is `ion`.
 
+## Install
+
+```kotlin
+dependencies {
+    implementation("io.github.leo-gan:gld-ion-kotlin:0.2.0")
+}
+```
+
+The Maven coordinate is `io.github.leo-gan:gld-ion-kotlin:0.2.0`.
+
 ## Build this repository
 
 ```bash
