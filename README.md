@@ -1,5 +1,7 @@
 # gld-ion-kotlin
 
+[Serialization](https://leo-gan.github.io/serialization/) is the hub for the theory, the history, and the benchmarks.
+
 A from-scratch Amazon Ion implementation for Kotlin on the JVM.
 The runtime and the code generator are Kotlin. They do not wrap, link, or
 vendor ion-java, ion-c, ion-rust, or any other Ion library.
